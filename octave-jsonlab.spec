@@ -11,12 +11,8 @@ Url:		https://github.com/fangq/%{octpkg}/
 BuildArch:	noarch
 
 BuildRequires:	octave-devel >= 4.0.0
-#BuildRequires:	octave-jsonlab
-#BuildRequires:	octave-zmat
 
 Requires:	octave(api) = %{octave_api}
-#Requires:	octave-jsonlab
-#Requires:	octave-zmat
 
 Requires(post): octave
 Requires(postun): octave
